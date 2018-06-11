@@ -1,0 +1,24 @@
+Mon Jun 11 2018 
+author: Josef Ruppenhofer
+
+The csv-file in this directory contains the manual annotations 
+for the COLING 2018 submission "Distinguishing affixoid formations from compounds" by
+Josef Ruppenhofer, Michael Wiegand, Rebecca Wilm and Katja Markert.
+
+
+The file dataset_annotations.csv contains lines with tab-separated values such as:
+
+Torschützenkönig	Y	Y	Y	Y	pos	Y
+
+The meaning of the columns is as follows.
+
+1	complex word
+2	is whole word intensifying? (Y,N,?)
+3	is whole word evaluative? (Y,N,?)
+4	is suffixoid candidate intensifying within the complex word? (Y,N,?)
+5	is suffixoid candidate evaluative within the complex word? (Y,N,?)
+6	polarity of the complex word? (pos, neg,neu,both,unsure)
+7	is complex word an affixoid formation? 
+
+
+
